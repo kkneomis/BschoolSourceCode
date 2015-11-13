@@ -1,0 +1,61 @@
+
+    
+    
+    <script src="js/menu.js"></script>
+<div id="static-header">
+  <!-- header -->
+  <link rel="stylesheet" href="css/menu.css">
+      <header class="menu-header navbar" role="banner">
+        <div class="container">
+          <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+              <!-- Logo -->
+              <a class="navbar-brand" href="index.html">
+
+                <img src="http://res.cloudinary.com/howard-bschool/image/upload/v1443921826/logo_bschool_pwf0ul.png"  href="index.html" alt="HUSB" class="main-logo-light" width="300"/>
+                <img src="http://res.cloudinary.com/howard-bschool/image/upload/v1443921826/logo_bschool_pwf0ul.png"  href="index.html" alt="HUSB" class="main-logo responsive mb" width="300"/>
+              </a>
+              <!-- /Logo -->
+            </div>
+            <div class="collapse navbar-collapse">
+              <!-- Main navigation -->
+              <ul class="nav navbar-nav navbar-right">
+                <li class="neko-mega-menu-trigger">
+                  <a href="http://www2.howard.edu/admission" class="btn default small">Apply</a>
+                </li>
+
+                <li> 
+                  <a href="donors.html" class="btn default small">Donate</a>
+                </li>
+                <li class="neko-mega-menu-trigger">
+                  <a href="http://www2.howard.edu/contact/visit" class="btn default small">Visit</a>
+                </li>
+              </ul>
+              <!-- / End main navigation -->
+            </div>
+
+
+          </nav>                            
+        </div>
+
+      </header>
+      <!-- header -->
+  <div class="row"> 
+     <div class="text-center"> 
+      <div id='cssmenu'>
+          <ul>
+             <li><a href='programs.html'><span>Undergraduate Programs</span></a></li>
+             <li><a href='mbaprograms.html'><span>MBA Programs</span></a></li>
+            <li><a href="/emba"><span>Executive MBA</span></a></li>
+             <li><a href='special_programs.html'><span>Special Programs</span></a></li>
+            <li><a href='directory.html'><span>Faculty</span></a></li>
+            <li><a href='research.html'><span>Publications</span></a></li>
+            <li><a href='donors.html'><span>Donors</span></a></li>
+             <li class='last'><a href='centers.html'><span>Centers</span></a></li>
+          </ul>
+      </div>
+      </div> 
+  </div>
+  
+</div><!-------static header-----> 
+  
