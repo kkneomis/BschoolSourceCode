@@ -288,3 +288,7 @@ display:none;
 box-shadow: -14px 8px 5px 0px rgba(205,203,214,0.69);
  
 }
+
+.navbar-fixed-top {
+    top: 41px;
+}
