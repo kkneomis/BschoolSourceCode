@@ -9,7 +9,7 @@
   $subject = "Subscribe";
 
   # RESULT PAGE
-  $location = "http://howard-business-school-129697.nitrousapp.com:3000/bschoolhoward/parentsweekend.html";
+  $location = "http://bschool.howard.edu/cap21.html";
 
   ## FORM VALUES ##
 

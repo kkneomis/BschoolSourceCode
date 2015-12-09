@@ -182,7 +182,7 @@ svg {
 }
 .slide:nth-child(3) .slide__bg {
   left: -100%;
-  background-image: url("http://res.cloudinary.com/bisonshare/image/upload/v1442715755/chrystler_u9cfve.jpg");
+  background-image: url("/images/general/husweater.png");
 }
 .slide:nth-child(3) .slide__overlay-path {
   fill: #3272a8;
