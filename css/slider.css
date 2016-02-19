@@ -149,7 +149,7 @@ svg {
 }
 .slide:nth-child(1) .slide__bg {
   left: 0;
-  background-image: url("http://res.cloudinary.com/bisonshare/image/upload/v1442713767/MBA-11_tehio6.jpg");
+  background-image: url("/images/general/slider1.jpg");
 }
 .slide:nth-child(1) .slide__overlay-path {
   fill: #3272a8;
@@ -165,7 +165,7 @@ svg {
 }
 .slide:nth-child(2) .slide__bg {
   left: -50%;
-  background-image: url("http://res.cloudinary.com/howard-bschool/image/upload/v1443714208/China_2013_-_Copy_fk8n7r.png");
+  background-image: url("/images/general/slider2.png");
 }
 .slide:nth-child(2) .slide__overlay-path {
   fill: #3272a8;
@@ -182,7 +182,7 @@ svg {
 }
 .slide:nth-child(3) .slide__bg {
   left: -100%;
-  background-image: url("/images/general/husweater.png");
+  background-image: url("/images/general/slider3.png");
 }
 .slide:nth-child(3) .slide__overlay-path {
   fill: #3272a8;
@@ -198,7 +198,7 @@ svg {
 }
 .slide:nth-child(4) .slide__bg {
   left: -150%;
-  background-image: url("http://res.cloudinary.com/howard-bschool/image/upload/v1445265772/45th/PA020549.jpg");
+  background-image: url("/images/general/slider4.jpg");
 }
 .slide:nth-child(4) .slide__overlay-path {
   fill: #3272a8;

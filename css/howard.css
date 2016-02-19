@@ -1,0 +1,445 @@
+.dropdown {
+    position: relative
+}
+.dropdown-toggle:focus {
+    outline: 0
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    font-size: 15px;
+    text-align: left;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    background-clip: padding-box
+}
+.dropdown-menu.pull-right {
+    right: 0;
+    left: auto
+}
+.dropdown-menu .divider {
+    height: 1px;
+    margin: 9.5px 0;
+    overflow: hidden;
+    background-color: #e5e5e5
+}
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #7b8a8b;
+    white-space: nowrap
+}
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #2c3e50
+}
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:hover,
+.dropdown-menu>.active>a:focus {
+    color: #ffffff;
+    text-decoration: none;
+    outline: 0;
+    background-color: #2c3e50
+}
+.dropdown-menu>.disabled>a,
+.dropdown-menu>.disabled>a:hover,
+.dropdown-menu>.disabled>a:focus {
+    color: #b4bcc2
+}
+.dropdown-menu>.disabled>a:hover,
+.dropdown-menu>.disabled>a:focus {
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+    filter: progid: DXImageTransform.Microsoft.gradient(enabled=false);
+    cursor: not-allowed
+}
+.open>.dropdown-menu {
+    display: block
+}
+.open>a {
+    outline: 0
+}
+.dropdown-menu-right {
+    left: auto;
+    right: 0
+}
+.dropdown-menu-left {
+    left: 0;
+    right: auto
+}
+.dropdown-header {
+    display: block;
+    padding: 3px 20px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #b4bcc2;
+    white-space: nowrap
+}
+.dropdown-backdrop {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 990
+}
+.pull-right>.dropdown-menu {
+    right: 0;
+    left: auto
+}
+.dropup .caret,
+.navbar-fixed-bottom .dropdown .caret {
+    border-top: 0;
+    border-bottom: 4px solid;
+    content: ""
+}
+.dropup .dropdown-menu,
+.navbar-fixed-bottom .dropdown .dropdown-menu {
+    top: auto;
+    bottom: 100%;
+    margin-bottom: 1px
+}
+@media (min-width: 768px) {
+    .navbar-right .dropdown-menu {
+        left: auto;
+        right: 0
+    }
+    .navbar-right .dropdown-menu-left {
+        left: 0;
+        right: auto
+    }
+}
+
+
+menu,
+nav,
+{
+    vertical-align: baseline;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0 auto;
+}
+.container {
+    float: left;
+    width: 100%;
+    padding: 0;
+}
+.inner_container {
+    overflow: hidden;
+    max-width: 1530px;
+    width: 100%;
+    margin: auto;
+}
+.flex-control-nav {
+    bottom: 11.7%;
+    left: 20.5%;
+    z-index: 9;
+    width: auto;
+    text-align: left;
+}
+.flex-control-nav li {
+    border: 1px solid #fff;
+}
+.flex-control-nav li a {
+    background-color: transparent;
+}
+.flex-control-nav li a:hover,
+.flex-control-nav li a.flex-active {
+    background: #fff;
+}
+.flex-control-paging li a {
+    width: 7px;
+    height: 7px;
+    border-radius: 0;
+}
+.flex-direction-nav {
+    position: absolute;
+    bottom: 40px;
+    left: 21.4%;
+    z-index: 10;
+    width: auto;
+}
+.flex-direction-nav li {
+    float: left;
+    margin: 0 10px 0 0;
+}
+.flex-direction-nav a {
+    float: left;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    text-indent: 50px;
+}
+.flex-direction-nav a.flex-prev {
+    background: url(/sites/all/themes/howard/images/slider_left_active.png) no-repeat 100% center;
+}
+.flex-direction-nav a.flex-next {
+    background: url(/sites/all/themes/howard/images/slider_right_active.png) no-repeat 100% center;
+}
+.slider_content {
+    position: absolute;
+    left: 24.7%;
+    bottom: 0;
+    z-index: 9;
+}
+.container .slider_content h2 {
+    color: #fff;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font: 48px/60px 'serif6beta-regular';
+    text-align: left;
+}
+.slider_content p {
+    color: #fff;
+    font: 30px/34px 'opensans-semibold';
+    width: 64%;
+    margin: 4px 0 10px;
+}
+.transparent_img {
+    background: url(/sites/all/themes/howard/images/blue_bg.png) repeat;
+    width: 100%;
+    height: 18.3%;
+    position: absolute;
+    bottom: 0;
+    opacity: .80;
+    z-index: 2;
+}
+.transparent_img.top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    height: 145px;
+    width: 100%;
+}
+.inner_content {
+    max-width: 1020px;
+    width: 100%;
+    margin: 0 auto;
+}
+header {
+    max-width: 1020px;
+    width: 100%;
+    margin: 0 auto;
+}
+header .inner_content {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    height: 145px;
+}
+header .top_section ul {
+    float: left;
+    margin-top: 4px;
+}
+header .top_section ul li {
+    display: inline-block;
+}
+header .inner_content a.logo {
+    float: left;
+}
+header .inner_content a.logo img {
+    max-width: 270px;
+    width: 100%;
+}
+header .inner_content .top_section .top_menu li a {
+    font: 12px/30px 'opensans-regular';
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 10px;
+    color: #fff;
+}
+header .inner_content .top_section .social_net {
+    float: right;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+header .inner_content .top_section .social_net li a {
+    margin: 0 4px;
+    font-size: 20px;
+    color: #fff;
+}
+header .inner_content .search {
+    float: left;
+    width: 29%;
+    margin: 5px 0 0 3%;
+    background: #004571;
+}
+header .inner_content .search input {
+    border: none;
+    padding: 0 0 0 10px;
+    font: 12px/24px 'opensans-light';
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #fff;
+}
+header .inner_content .search a {
+    float: right;
+    margin: 2px 5px 0 0;
+}
+.primary {
+    float: right;
+    margin-top: 56px;
+}
+.primary ul.top_menu {
+    display: none;
+}
+.primary .search {
+    display: none;
+}
+.primary ul li a {
+    text-decoration: none;
+}
+.primary ul ul {
+    display: none
+}
+.primary ul.menu_level1 ul.menu_level2 > li > ul {
+    background-color: #fff;
+}
+.primary ul.menu_level1 ul.menu_level2 ul.menu_level3 > li:hover > ul {
+    display: block;
+}
+.primary ul.menu_level1 ul.menu_level2 > li:hover,
+.primary ul.menu_level1 ul.menu_level2 ul.menu_level3 > li:hover {
+    background-color: #ededed;
+}
+.primary ul.menu_level1 > li {
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+}
+.primary ul.menu_level1 > li > a {
+    float: left;
+    border-top: 2px solid transparent;
+    font: 18px/30px 'opensans-regular';
+    letter-spacing: .4px;
+    text-transform: uppercase;
+    padding: 8px 5px 12px;
+    color: #fff;
+}
+.primary ul.menu_level1 > li > a:hover,
+.primary ul.menu_level1 > li > a.active {
+    border-top: 2px solid #e51937;
+}
+.primary ul.menu_level1 > li > ul {
+    position: absolute;
+}
+.primary ul.menu_level1 .menu_level2 {
+    background: #fff;
+    top: 56px;
+    left: -18px;
+    width: 15.7em;
+    padding: 10px 0 0 0;
+}
+.primary ul.menu_level1 .menu_level2 > li > a {
+    margin-left: 6%;
+    text-transform: uppercase;
+    font: 14px/22px 'opensans-bold';
+    color: #e51937;
+}
+.primary ul.menu_level1 .menu_level2 li {
+    list-style: none;
+}
+.primary ul.menu_level1 .menu_level2 > li {
+    margin-bottom: 10px;
+}
+.primary ul.menu_level2level1 .menu_level2 .menu_level3 > li {
+    padding-left: 5%;
+}
+.primary ul.menu_level1 .menu_level2 .menu_level3 > li > a {
+    display: inline-block;
+    font: 13px/24px 'opensans-semibold';
+    color: #7c7d7f;
+}
+.primary ul.menu_level1 .menu_level2 .menu_level3 > li > a span {
+    margin-left: 4px;
+    font: 9px/20px 'opensans-semibold';
+    color: #e51937;
+}
+.primary ul.menu_level1 .menu_level2 .menu_level3 .menu_level4 {
+    position: absolute;
+    top: 0;
+    left: 15.5em;
+    width: 15.6em;
+    height: 100%;
+    padding: 32px 6.5% 0;
+    background-color: #ededed;
+}
+.primary ul.menu_level1 .menu_level2 .menu_level3 .menu_level4 > li > a {
+    font: 13px/24px 'opensans-regular';
+    color: #5f6060;
+}
+.primary ul.menu_level1 > li+li+li .menu_level2 .menu_level3 .menu_level4 {
+    left: -15.5em;
+}
+.right_menu {
+    position: fixed;
+    top: 45%;
+    right: 0;
+    z-index: 101;
+    width: auto;
+    padding: 2px 4px;
+    background-color: #e51937;
+}
+.right_menu > div {
+    float: left;
+    overflow: hidden;
+    width: 40px;
+}
+.right_menu > div > span {
+    display: table-cell;
+    vertical-align: middle;
+    width: 54px;
+    padding: 0 12px;
+    text-align: center;
+    cursor: pointer;
+    background: url(/sites/all/themes/howard/images/red_bg1.png) repeat;
+}
+.right_menu ul li {
+    float: left;
+    width: 100%;
+    margin: 3px 3px 0 3px;
+    padding: 14px 18px;
+    text-align: center;
+    list-style: none;
+    background: url(/sites/all/themes/howard/images/red_bg2.png) repeat;
+}
+.right_menu ul {
+    float: left;
+    width: 188px;
+}
+.right_menu.active ul {
+    display: block !important;
+}
+.right_menu ul li:first-child {
+    margin-top: 0;
+}
+.right_menu ul li a {
+    font: 14px/14px 'eau_sans_bold';
+    text-decoration: none;
+    color: #fff;
+}
+.main_menu_is-active .right_menu {
+    z-index: 99;
+}
