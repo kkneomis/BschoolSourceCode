@@ -296,3 +296,18 @@ box-shadow: -14px 8px 5px 0px rgba(205,203,214,0.69);
 @media only screen and (max-width: 479px) {
    .mobile-hide{ display: none !important; }
 }
+
+.col-md-3 .pricing {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+
+.golf-course {
+    background-image: url('/images/general/golf.png');
+}
+
+.golf h1{
+  font-size:40px;
+  color:white
+}

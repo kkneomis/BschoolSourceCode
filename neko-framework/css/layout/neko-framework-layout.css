@@ -6347,7 +6347,7 @@ img.full-height {
   padding: 0 24px;
 }
 .pricing-table ul li {
-  padding: 24px 0;
+  padding: 12px 0;
   font-size: 12px;
 }
 .pricing-table h2 {
@@ -6359,7 +6359,7 @@ img.full-height {
 }
 .pricing-table .pricing h3 {
   font-weight: 800;
-  font-size: 71px;
+  font-size: 35px;
   display: block;
   padding: 24px;
   margin: 0;
@@ -9666,6 +9666,7 @@ footer#main-footer {
   padding-right: 22px;
   padding-left: 22px;
 }
+
 /* accordion */
 .panel-group {
   border: none;
