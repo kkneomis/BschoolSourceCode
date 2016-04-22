@@ -149,7 +149,7 @@ svg {
 }
 .slide:nth-child(1) .slide__bg {
   left: 0;
-  background-image: url("/images/general/parentsweekend.jpg");
+  background-image: url("/images/general/slider1.jpg");
 }
 .slide:nth-child(1) .slide__overlay-path {
   fill: #3272a8;
@@ -198,7 +198,7 @@ svg {
 }
 .slide:nth-child(4) .slide__bg {
   left: -150%;
-  background-image: url("http://howardmarketingsummit.com/wp-content/uploads/2015/11/Howard-University-top-black-college-e1459355139630.jpg");
+  background-image: url("/images/general/gift_a_senior.jpg")
 }
 .slide:nth-child(4) .slide__overlay-path {
   fill: #3272a8;
