@@ -149,7 +149,7 @@ svg {
 }
 .slide:nth-child(1) .slide__bg {
   left: 0;
-  background-image: url("/images/general/slider1.jpg");
+  background-image: url("/images/general/obama.png");
 }
 .slide:nth-child(1) .slide__overlay-path {
   fill: #3272a8;
@@ -165,7 +165,7 @@ svg {
 }
 .slide:nth-child(2) .slide__bg {
   left: -50%;
-  background-image: url("/images/general/highschool.PNG");
+  background-image: url("/images/general/open-house.png");
 }
 .slide:nth-child(2) .slide__overlay-path {
   fill: #3272a8;
