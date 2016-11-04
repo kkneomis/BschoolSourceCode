@@ -149,7 +149,7 @@ svg {
 }
 .slide:nth-child(1) .slide__bg {
   left: 0;
-  background-image: url("/images/general/obama.png");
+  background-image: url("/images/general/obama.jpg");
 }
 .slide:nth-child(1) .slide__overlay-path {
   fill: #3272a8;
